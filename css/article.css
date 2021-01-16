@@ -1,0 +1,195 @@
+html {
+	background-color: #ffffff;
+}
+
+
+/*** Начало header ***/
+/*** Конец header ***/
+
+
+/*** Начало article ***/
+/*** Начало article_brand ***/
+.article_brand {
+	position: relative;
+	box-sizing: border-box;
+	margin-top: 56px;
+	margin-bottom: 57px;
+	margin-right: 30px;
+	padding-top: 450px;
+	padding-left: 50px;
+	padding-right: 50px;
+	width: 960px;
+	height: 1974px;
+	
+	border-radius: 11px;
+	background-image: url("../media/images/article/brand/fon.svg");
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+}
+
+.article_brand h1 {
+	font-family: "Ubuntu", "Verdana", sans-serif;
+	font-weight: bold;
+	font-size: 42px;
+	line-height: 150%;
+	letter-spacing: -0.02em;
+	color: #041032;
+}
+
+.article_brand h2 {
+	font-family: "Ubuntu", "Verdana", sans-serif;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 150%;
+	letter-spacing: -0.02em;
+	color: #041032;
+}
+
+.article_brand h3 {
+	font-family: "Ubuntu", "Verdana", sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 150%;
+	letter-spacing: -0.02em;
+	color: #041032;
+}
+
+.article_brand p {
+	font-family: "Ubuntu", "Verdana", sans-serif;
+	font-size: 17px;
+	line-height: 150%;
+	color: #041032;
+}
+
+.article_item {
+	display: flex;
+	justify-content: space-between;
+	
+	width: 623px;
+	height: 98px;
+}
+
+.list_one {
+	list-style-image: url("../media/images/article/brand/oval.svg");
+}
+
+.list_two {
+	color: #ef5e42;
+}
+
+.list_three {
+	list-style-image: url("../media/images/article/brand/check.svg");
+}
+
+.list_three .cross {
+	list-style-image: url("../media/images/article/brand/cross.svg");
+}
+
+.article_item li {
+	font-family: "Ubuntu", "Verdana", sans-serif;
+	font-size: 17px;
+	line-height: 150%;
+	color: #000000;
+}
+
+.article_promo {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.article_promo p {
+	font-family: "Ubuntu", "Verdana", sans-serif;
+	font-size: 15px;
+	line-height: 150%;
+	color: #999999;
+}
+
+.article_form {
+	display: flex;
+	justify-content: space-between;
+}
+
+.article_form p {
+	font-family: "Ubuntu", "Verdana", sans-serif;
+	font-size: 15px;
+	line-height: 150%;
+	color: #999999;
+}
+
+.article_form a {
+	font-family: "Ubuntu", "Verdana", sans-serif;
+	font-size: 17px;
+	line-height: 150%;
+	text-align: right;
+	color: #4050A5;
+}
+
+
+/*** Конец article_brand ***/
+
+
+/*** Начало article_post ***/
+.article_post {
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	margin-top: 30px;
+	
+	width: 300px;
+	height: 1323px;
+	
+	border-radius: 10px;
+}
+
+.article_post .title {
+	margin-top: 10px;
+	
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 150%;
+}
+
+.article_post div {
+	width: 300px;
+	height: 235px;
+}
+
+.article_post h3 {
+	margin-top: 10px;
+	margin-right: 12px;
+	margin-left: 12px;
+	
+	
+	max-width: 250px;
+	height: 62px;
+	
+	font-family: "Ubuntu", "Verdana", sans-serif;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 150%;
+	color: #4050A5;
+}
+
+.post_image {
+	margin-bottom: 34px;
+}
+
+.post_image:hover {
+	border: 2px solid #4050a5;
+	border-radius: 11px;
+	box-shadow: 0 0 15px #4050a5;
+	cursor: pointer;
+
+}
+
+.post_image:hover h3 {
+		color: #ef5e42;
+}
+/*** Конец article_post ***/
+/*** Конец article ***/
+
+
+/*** Начало footer ***/
+/*** Конец footer ***/

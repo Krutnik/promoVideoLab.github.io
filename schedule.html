@@ -8,33 +8,33 @@
 	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
 	
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/maket.css">
-	<link rel="stylesheet" href="css/blog.css">
-	<link rel="stylesheet" href="css/article.css">
-	<link rel="stylesheet" href="css/schedule.css">
+	<link rel="stylesheet" href="./css/normalize.css">
+	<link rel="stylesheet" href="./css/maket.css">
+	<!-- <link rel="stylesheet" href="./css/blog.css"> -->
+	<!-- <link rel="stylesheet" href="./css/article.css"> -->
+	<link rel="stylesheet" href="./css/schedule.css">
 	
 </head>
 <body>
-	
 	<header>
 		<div class="wrapper">
-			<a href="https://s.codetasty.com/Krutnik/frontend/maket/maket.html#">
-				<img class="logo" src="../maket/media/images/header/logo.svg" alt="PromoVideoLab">
+			<a href="https://krutnik.github.io/promoVideoLab.github.io/index.html">
+				<img class="logo" src="../images/header/logo.svg" alt="PromoVideoLab">
 			</a>
 			<nav>
 				<ul class="main_menu">
 					<li>
-						<a href="#">Types of videos</a>
+						<a href="https://krutnik.github.io/promoVideoLab.github.io/videos.html">Types of videos</a>
 					</li>
 					<li>
-						<a href="#">Portfolio</a>
+						<a href="https://krutnik.github.io/promoVideoLab.github.io/portfolio.html">Portfolio</a>
 					</li>
 					<li>
-						<a href="https://s.codetasty.com/Krutnik/frontend/maket/blog.html#">Blog</a>
+						<a href="https://krutnik.github.io/promoVideoLab.github.io/blog.html">Blog</a>
 					</li>
 					<li>
-						<a class="btn" href="#">schedule a call</a>
+						<a class="btn" href="https://krutnik.github.io/promoVideoLab.github.io/schedule.html#">schedule a
+							call</a>
 					</li>
 				</ul>
 			</nav>
@@ -49,41 +49,44 @@
 			<div class=form>
 				<div class="form_item">
 					<div class="form_flex">
-						<div>
+						<div class="personal">
 							<legend>Your name</legend>
 							<input type="name" placeholder="Alexey">
 						</div>
-						<div>
+						<div class="personal">
 							<legend>Email adress</legend>
 							<input type="email" placeholder="mail@alexe">
 						</div>
-						<div>
+						<div class="personal">
 							<legend>Phone number</legend>
 							<input type="tel">
 						</div>
 					</div>
 					<div class="form_flex">
-						<div>
+						<div class="date">
 							<form>
 								<legend>Select the date og your appointment</legend>
-								<input type="date">
+								<input type="text" value="28 august 2019">
+								<img src="./images/schedule/date.svg" alt="date">
 							</form>
 						</div>
-						<div>
+						<div class="date">
 							<legend>And the time</legend>
 							<select name="time" id="time" size="1">
 								<option value="10:00">10:00</option>
 								<option value="10:30" selected>10:30</option>
 								<option value="11:00">11:00</option>
 							</select>
+							<img src="./images/schedule/arrow.svg" alt="date">
 						</div>
-						<div>
+						<div class="date">
 							<legend>Your Time Zone</legend>
 							<select name="zone" id="zone" size="1">
 								<option value="UTS +9 (Alaska)" selected>UTS +9 (Alaska)</option>
 								<option value="UTS +6 (Canada)">UTS +6 (Canada)</option>
 								<option value="UTS +3 (Moscow)">UTS +3 (Moscow)</option>
 							</select>
+							<img src="./images/schedule/arrow.svg" alt="date">
 						</div>
 					</div>
 				</div>
@@ -116,11 +119,11 @@
 				<div class="footer_me">
 					<div class="footer_cosial">
 						<a href="#">
-							<img class="logo" src="../maket/media/images/footer/logo.svg" alt="PromoVideoLab">
+							<img class="logo" src="../images/footer/logo.svg" alt="PromoVideoLab">
 						</a>
-						<a href="#"><img src="../maket/media/images/footer/youtube.svg" alt="youtube"></a>
-						<a href="#"><img src="../maket/media/images/footer/instagram.svg" alt="instagram"></a>
-						<a href="#"><img src="../maket/media/images/footer/facebook.svg" alt="facebook"></a>
+						<a href="#"><img src="../images/footer/youtube.svg" alt="youtube"></a>
+						<a href="#"><img src="../images/footer/instagram.svg" alt="instagram"></a>
+						<a href="#"><img src="../images/footer/facebook.svg" alt="facebook"></a>
 					</div>
 					<div class="footer_email">	
 						<p>info@promovideolab.com</p>
@@ -131,10 +134,8 @@
 						<p>© Copyright promoVideoLab, 2019</p>
 					</div>
 					<div class="footer_private">
-						<!--<a href="">Terms and conditions</a>-->
-						<!--<a href="">Privacy policy</a>-->
-						<p>Terms and conditions</p>
-						<p>Privacy policy</p>
+						<a href="#">Terms and conditions</a>
+						<a href="#">Privacy policy</a>
 					</div>
 				</div>
 			</div>	

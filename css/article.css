@@ -1,5 +1,5 @@
 html {
-	background-color: #ffffff;
+	background-color: #f4f6fb;
 }
 
 
@@ -19,10 +19,10 @@ html {
 	padding-left: 50px;
 	padding-right: 50px;
 	width: 960px;
-	height: 1974px;
+	/* height: 1974px; */
 	
 	border-radius: 11px;
-	background-image: url("../media/images/article/brand/fon.svg");
+	background-image: url("../images/article/brand/fon.svg");
 	background-repeat: no-repeat;
 	background-position: 100% 0;
 }
@@ -63,6 +63,7 @@ html {
 
 .article_item {
 	display: flex;
+	flex-direction: row;
 	justify-content: space-between;
 	
 	width: 623px;
@@ -70,19 +71,26 @@ html {
 }
 
 .list_one {
-	list-style-image: url("../media/images/article/brand/oval.svg");
+	list-style-image: url("../images/article/brand/oval.svg");
+	margin-right: 14px;
 }
 
 .list_two {
+	list-style-type: none;
+}
+
+.list_two span {
 	color: #ef5e42;
+	margin-right: 15px;
 }
 
 .list_three {
-	list-style-image: url("../media/images/article/brand/check.svg");
+	list-style-image: url("../images/article/brand/check.svg");
+	margin-right: 12px;
 }
 
 .list_three .cross {
-	list-style-image: url("../media/images/article/brand/cross.svg");
+	list-style-image: url("../images/article/brand/cross.svg");
 }
 
 .article_item li {
@@ -112,6 +120,7 @@ html {
 }
 
 .article_form p {
+	margin-top: 59px;
 	font-family: "Ubuntu", "Verdana", sans-serif;
 	font-size: 15px;
 	line-height: 150%;
@@ -119,14 +128,13 @@ html {
 }
 
 .article_form a {
-	font-family: "Ubuntu", "Verdana", sans-serif;
+	margin-top: 56px;
+	font-family: "Roboto", "Verdana", sans-serif;
 	font-size: 17px;
 	line-height: 150%;
 	text-align: right;
 	color: #4050A5;
 }
-
-
 /*** Конец article_brand ***/
 
 
@@ -174,18 +182,18 @@ html {
 
 .post_image {
 	margin-bottom: 34px;
+	background-color: #fff;
+	border-radius: 0px 0px 10px 10px;
 }
 
 .post_image:hover {
-	border: 2px solid #4050a5;
 	border-radius: 11px;
-	box-shadow: 0 0 15px #4050a5;
 	cursor: pointer;
 
 }
 
 .post_image:hover h3 {
-		color: #ef5e42;
+	color: #ef5e42;
 }
 /*** Конец article_post ***/
 /*** Конец article ***/

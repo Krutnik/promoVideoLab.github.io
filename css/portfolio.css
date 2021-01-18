@@ -26,13 +26,13 @@ html {
     width: 411px;
     height: 345px;
     margin-bottom: 30px;
-    /* background-color: #4050a5 !important; */
 }
 
 .cont {
 	display: flex;
     height: 95px;
-    background-color: #4050a5 !important;
+	background-color: #4050a5 !important;
+	border-radius:  0 0 11px 11px;
 }
 
 .cont a {

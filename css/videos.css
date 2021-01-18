@@ -26,6 +26,7 @@
     flex-direction: column;
     justify-content: space-around;
     padding-right: 30px;
+    max-height: 326px;
 }
 
 .types-item-two {
@@ -33,6 +34,7 @@
     flex-direction: column;
     justify-content: space-around;
     padding-left: 30px;
+    max-height: 326px;
 }
 
 .item-title h2 {
@@ -76,20 +78,22 @@
 
 .types-video {
     position: relative;
+    height: 345px;
 }
 
 .types-video-two {
     position: relative;
+    height: 345px;
 }
 
 .types-video a {
     position: absolute;
-    bottom: 0px;
+    bottom: 10px;
     left: 197px;
 }
 
 .types-video-two a {
     position: absolute;
-    bottom: 0px;
+    bottom: 10px;
     left: 197px;
 }
